@@ -1,0 +1,1238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C2A3A53EF582AB7F1FCB04E360A86FD0 /* KonkeSdk4YinYue */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F13A1E7B3B945500CE941988BB7CBB70 /* Build configuration list for PBXAggregateTarget "KonkeSdk4YinYue" */;
+			buildPhases = (
+				6AD135BAE9E4D8AF63B40A648A5244EE /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				DED6C18FFE05670A997F38430CB64D6C /* PBXTargetDependency */,
+			);
+			name = KonkeSdk4YinYue;
+			productName = KonkeSdk4YinYue;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		029A5720F5C4710972809511A5D0DD6A /* StringHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A455D498CECF814C4B98B2A191E7EE /* StringHTTPHandler.swift */; };
+		081499C0FB367E40804C0F4F34A3C9B5 /* KYWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02168F6E133C94C921ACECFD2705CC3 /* KYWebSocket.swift */; };
+		0DCA4C3BDB020EBF9E2DB09E3AE7626A /* KonkeSdk4YinYue_WebSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F4D3CAB092214E553B92EAC54A72C94 /* KonkeSdk4YinYue_WebSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EA4F8B6CDDA76B78CF7F0F3217F3E9E /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE66CF3EF5E9044CE46BE25169AED18 /* Security.swift */; };
+		12544B865BD71550C934568A6271F391 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A575577888EFF06398283C5B999DBC /* Compression.swift */; };
+		303439F6D884305676D7F787C73B1CAB /* FoundationSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4956CC5C362D053AFA379F01CE50B3F9 /* FoundationSecurity.swift */; };
+		366EE8580A51CF4C9DD4A084D6E96EA8 /* FoundationTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B479036D7F91C63390E5EB738D30118D /* FoundationTransport.swift */; };
+		42FBD04933FEBE1D37C15B0C5ADE4536 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00843E5522F6D5CB36AC11AE2DE67E88 /* Engine.swift */; };
+		4595F516367469F6947F036B277F61FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		49B602E5D8E31EAD347B5D26D73CAD16 /* KonkeSdk4YinYue_WebSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 319A2C13E23FECB33DA27523E39511E9 /* KonkeSdk4YinYue_WebSocket-dummy.m */; };
+		501C45E7CEF9AA6B87CB30D9BD4B37AB /* Pods-KonkeSdk4YinYue_WebSocket_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B85B605AE3247C8C9D7485ABBC0F6031 /* Pods-KonkeSdk4YinYue_WebSocket_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53EFEEADD116E14AEEB770D4929CFD9D /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4091618F686442105634A9A93FEAE /* HTTPHandler.swift */; };
+		5C05D91BB12A0D2935E2D9483EC861FD /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DDF2CF909F5C1CD5822CED394E4EAA /* Server.swift */; };
+		5D05A0315DE5CC2E51ABF2A6C4455E16 /* Pods-KonkeSdk4YinYue_WebSocket_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7C5F77C33CE0932C47AAD99F29C714 /* Pods-KonkeSdk4YinYue_WebSocket_Example-dummy.m */; };
+		72E806DE856F3DD992ADFF3D8EB3ECDB /* FoundationHTTPServerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881D3B976257CA10286C5F902AF1030C /* FoundationHTTPServerHandler.swift */; };
+		74E99026FB3B15AF4B8DCE5D9DF6DCE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		80E8876813C42070BCEFD065CF9905BF /* WSEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15971AB4365C4BC26EA6A432AAB2757 /* WSEngine.swift */; };
+		82F6364267EE9528D91832B244469C21 /* TCPTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3841D011BCEA3169BFEBDC86D1878E5 /* TCPTransport.swift */; };
+		84722F065D42BABA7853F9F1DC0B525C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9118563C83660A5F37E07C7BAB3A3339 /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82D0D250086638A80592023B570B0B66 /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7C1520B71D2B67EF758C2904F48C82A /* NativeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70E2F80843F2BDD9E1AEE18873B15CA /* NativeEngine.swift */; };
+		A9424A05011F14F3EFDE074ECCF20236 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0E72E1F8C2A161BF07104CE1E21EE4 /* Transport.swift */; };
+		B52EE1FEC70291C3F325B7DF01868519 /* WSCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884FC4DB759C26947318135F0A4ED544 /* WSCompression.swift */; };
+		C0FAE014E7583E290D1D17E36FD6875F /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED5BB521A43EE174560572461DF52DC /* WebSocket.swift */; };
+		C5FEB4379AF57D3E3BB065C947B96AC7 /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF148A584BFE473D75717DB1AD4F3903 /* Starscream-dummy.m */; };
+		C9891E2E305765D1394B69DC72394A7C /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8120A6CC361845917F3781585FBCD88C /* Data+Extensions.swift */; };
+		CCC4199DF937176E159532D86FFFC5C1 /* Pods-KonkeSdk4YinYue_WebSocket_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49232436241498164069D1E3C664B1FD /* Pods-KonkeSdk4YinYue_WebSocket_Tests-dummy.m */; };
+		CF92A6415EE1AA987658D9190B637BAD /* WebSocketServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ACB6F5AF6605DB35B6FC318180EF61 /* WebSocketServer.swift */; };
+		D2DAFF43FCAC3319D2040C9DD95DABF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EECA24125DE91B8B7DD2477505D48135 /* Framer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C530E227F48330AEAB5F3E9777BA9 /* Framer.swift */; };
+		FA98F98F33FCBA9B70AA0B1D6C7769AE /* FrameCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3D0A63D7CF3CAE54377DEAA0F3D24A /* FrameCollector.swift */; };
+		FD69D525F0B815F065332A8E3E71370F /* Pods-KonkeSdk4YinYue_WebSocket_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 173D3D2060996F4F73A8086C23211CCC /* Pods-KonkeSdk4YinYue_WebSocket_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD6CCA186BEB19211C7E60C73AA169FC /* FoundationHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC128B4C3E038AB39CBB6DB5680E4DCB /* FoundationHTTPHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0420B7627D721E64971AF7966CA527CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A3A53EF582AB7F1FCB04E360A86FD0;
+			remoteInfo = KonkeSdk4YinYue;
+		};
+		634CBF731A0978B10DE9C26EC6965152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3243F10691840401CA669AFF64479827;
+			remoteInfo = "Pods-KonkeSdk4YinYue_WebSocket_Example";
+		};
+		68016B787AB9821758EAD9D96C11E262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
+		6C1473092B82D2F11752BAEADC462CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
+		90F5F2B047C089427C594D2FFF2B0A87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
+		B71A902B4D669CB59C71279A5163CB8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A3A53EF582AB7F1FCB04E360A86FD0;
+			remoteInfo = KonkeSdk4YinYue;
+		};
+		F60A981E839A7F8B0C2ECE58B860FF59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
+		F68F61AF10ADD30F02AFA11614A4B1DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A3A53EF582AB7F1FCB04E360A86FD0;
+			remoteInfo = KonkeSdk4YinYue;
+		};
+		F6A6D4559076B36D13FA0E4E20DAC0A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 756B008A00C71D6DFF98522A435EC865;
+			remoteInfo = KonkeSdk4YinYue_WebSocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00843E5522F6D5CB36AC11AE2DE67E88 /* Engine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Engine.swift; path = Sources/Engine/Engine.swift; sourceTree = "<group>"; };
+		13BCB17B901826C07DB0F54694384B5B /* Pods-KonkeSdk4YinYue_WebSocket_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KonkeSdk4YinYue_WebSocket_Example.release.xcconfig"; sourceTree = "<group>"; };
+		173D3D2060996F4F73A8086C23211CCC /* Pods-KonkeSdk4YinYue_WebSocket_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KonkeSdk4YinYue_WebSocket_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1A3D0A63D7CF3CAE54377DEAA0F3D24A /* FrameCollector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameCollector.swift; path = Sources/Framer/FrameCollector.swift; sourceTree = "<group>"; };
+		23E45FC4610D31C60FCF35F2FB49C795 /* Pods-KonkeSdk4YinYue_WebSocket_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KonkeSdk4YinYue_WebSocket_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2A2A3B0C633393815CA79370BC1A976A /* Pods-KonkeSdk4YinYue_WebSocket_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KonkeSdk4YinYue_WebSocket_Tests"; path = Pods_KonkeSdk4YinYue_WebSocket_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD960AD1AA52242D1E3A7B49BA340F4 /* KonkeSdk4YinYue_WebSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KonkeSdk4YinYue_WebSocket.debug.xcconfig; sourceTree = "<group>"; };
+		319A2C13E23FECB33DA27523E39511E9 /* KonkeSdk4YinYue_WebSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KonkeSdk4YinYue_WebSocket-dummy.m"; sourceTree = "<group>"; };
+		362BE007AE1F9F18DE8E6523214EF1EF /* KonkeSdk4YinYue_WebSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KonkeSdk4YinYue_WebSocket-prefix.pch"; sourceTree = "<group>"; };
+		392E6A6C89CF9B05795544389B5C81AB /* Pods-KonkeSdk4YinYue_WebSocket_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KonkeSdk4YinYue_WebSocket_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B7EFD9BC32501CFCDD872BBF191E6D3 /* Pods-KonkeSdk4YinYue_WebSocket_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KonkeSdk4YinYue_WebSocket_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3D7C5F77C33CE0932C47AAD99F29C714 /* Pods-KonkeSdk4YinYue_WebSocket_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KonkeSdk4YinYue_WebSocket_Example-dummy.m"; sourceTree = "<group>"; };
+		3FCD47DDA37038A56E4C047175B8C223 /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
+		41F4091618F686442105634A9A93FEAE /* HTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHandler.swift; path = Sources/Framer/HTTPHandler.swift; sourceTree = "<group>"; };
+		43C8524F3ECA2F4D45B89A4B7C99ED9D /* KonkeSdk4YinYue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KonkeSdk4YinYue.debug.xcconfig; sourceTree = "<group>"; };
+		48710CBCBF7A0F9807460DDB3EB109A6 /* KonkeSdk4YinYue_WebSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KonkeSdk4YinYue_WebSocket.release.xcconfig; sourceTree = "<group>"; };
+		49232436241498164069D1E3C664B1FD /* Pods-KonkeSdk4YinYue_WebSocket_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KonkeSdk4YinYue_WebSocket_Tests-dummy.m"; sourceTree = "<group>"; };
+		4956CC5C362D053AFA379F01CE50B3F9 /* FoundationSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationSecurity.swift; path = Sources/Security/FoundationSecurity.swift; sourceTree = "<group>"; };
+		5781D3575A91312F9C059F9EE7657648 /* Pods-KonkeSdk4YinYue_WebSocket_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KonkeSdk4YinYue_WebSocket_Example-Info.plist"; sourceTree = "<group>"; };
+		5E0E72E1F8C2A161BF07104CE1E21EE4 /* Transport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transport.swift; path = Sources/Transport/Transport.swift; sourceTree = "<group>"; };
+		66C22091598CA664AA1342721537D314 /* KonkeSdk4YinYue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KonkeSdk4YinYue.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		792375F8573946435F87529C55439026 /* Pods-KonkeSdk4YinYue_WebSocket_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KonkeSdk4YinYue_WebSocket_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7D0793C40548EF7717F17D27E497F688 /* Starscream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.debug.xcconfig; sourceTree = "<group>"; };
+		7F4D3CAB092214E553B92EAC54A72C94 /* KonkeSdk4YinYue_WebSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KonkeSdk4YinYue_WebSocket-umbrella.h"; sourceTree = "<group>"; };
+		8120A6CC361845917F3781585FBCD88C /* Data+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extensions.swift"; path = "Sources/DataBytes/Data+Extensions.swift"; sourceTree = "<group>"; };
+		82591F9DD16936634970681C41D7E290 /* KonkeSdk4YinYue.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = KonkeSdk4YinYue.xcframework; sourceTree = "<group>"; };
+		82A455D498CECF814C4B98B2A191E7EE /* StringHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringHTTPHandler.swift; path = Sources/Framer/StringHTTPHandler.swift; sourceTree = "<group>"; };
+		82CB904EA78E318754546FD55A889A24 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		82D0D250086638A80592023B570B0B66 /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
+		84F3F5558C873FA71F4B33471FC40E8B /* Pods-KonkeSdk4YinYue_WebSocket_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KonkeSdk4YinYue_WebSocket_Example-frameworks.sh"; sourceTree = "<group>"; };
+		87BFB8FE8DD09FE853483332B432E530 /* Pods-KonkeSdk4YinYue_WebSocket_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KonkeSdk4YinYue_WebSocket_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		881D3B976257CA10286C5F902AF1030C /* FoundationHTTPServerHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPServerHandler.swift; path = Sources/Framer/FoundationHTTPServerHandler.swift; sourceTree = "<group>"; };
+		884FC4DB759C26947318135F0A4ED544 /* WSCompression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WSCompression.swift; path = Sources/Compression/WSCompression.swift; sourceTree = "<group>"; };
+		891B2270823847ED23F2ECFC28F935EC /* Starscream */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE66CF3EF5E9044CE46BE25169AED18 /* Security.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Security.swift; path = Sources/Security/Security.swift; sourceTree = "<group>"; };
+		9014DFFF2F0809596DB98FCE36A26780 /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Starscream.modulemap; sourceTree = "<group>"; };
+		94A575577888EFF06398283C5B999DBC /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Compression/Compression.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3841D011BCEA3169BFEBDC86D1878E5 /* TCPTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCPTransport.swift; path = Sources/Transport/TCPTransport.swift; sourceTree = "<group>"; };
+		A537D1F8D3BB313A239575AED56B73D8 /* KonkeSdk4YinYue_WebSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KonkeSdk4YinYue_WebSocket-Info.plist"; sourceTree = "<group>"; };
+		A7DDF2CF909F5C1CD5822CED394E4EAA /* Server.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Server.swift; path = Sources/Server/Server.swift; sourceTree = "<group>"; };
+		AAC2D8808B30D25CD9C90FC6D8869AD8 /* KonkeSdk4YinYue_WebSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KonkeSdk4YinYue_WebSocket.modulemap; sourceTree = "<group>"; };
+		B479036D7F91C63390E5EB738D30118D /* FoundationTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationTransport.swift; path = Sources/Transport/FoundationTransport.swift; sourceTree = "<group>"; };
+		B4BA98FD45AD129281B417AF952531C9 /* Pods-KonkeSdk4YinYue_WebSocket_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KonkeSdk4YinYue_WebSocket_Example.modulemap"; sourceTree = "<group>"; };
+		B70E2F80843F2BDD9E1AEE18873B15CA /* NativeEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeEngine.swift; path = Sources/Engine/NativeEngine.swift; sourceTree = "<group>"; };
+		B85B605AE3247C8C9D7485ABBC0F6031 /* Pods-KonkeSdk4YinYue_WebSocket_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KonkeSdk4YinYue_WebSocket_Example-umbrella.h"; sourceTree = "<group>"; };
+		BDDCAA97281898E7FE3DE70B46A426E4 /* KonkeSdk4YinYue_WebSocket.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KonkeSdk4YinYue_WebSocket.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		BEBF6F6D2F32DFB55EAE93D8C55ECBA8 /* Starscream-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Starscream-Info.plist"; sourceTree = "<group>"; };
+		BED5BB521A43EE174560572461DF52DC /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/Starscream/WebSocket.swift; sourceTree = "<group>"; };
+		C746B6197B6B809445585CDD2CE1C58A /* KonkeSdk4YinYue-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "KonkeSdk4YinYue-xcframeworks.sh"; sourceTree = "<group>"; };
+		C980F5DE98EFAF40E91AA804B020436B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C9ACB6F5AF6605DB35B6FC318180EF61 /* WebSocketServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketServer.swift; path = Sources/Server/WebSocketServer.swift; sourceTree = "<group>"; };
+		CB1DCB6C1D428E1ADA845B14FE0560D6 /* Pods-KonkeSdk4YinYue_WebSocket_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KonkeSdk4YinYue_WebSocket_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D4585F97055A3B5A627C653E32CF6707 /* Pods-KonkeSdk4YinYue_WebSocket_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KonkeSdk4YinYue_WebSocket_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA8A554545952B5EABEA8C625010C7D7 /* Starscream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.release.xcconfig; sourceTree = "<group>"; };
+		DC128B4C3E038AB39CBB6DB5680E4DCB /* FoundationHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPHandler.swift; path = Sources/Framer/FoundationHTTPHandler.swift; sourceTree = "<group>"; };
+		DCA86B3746BD6E2E9630B845F7C29849 /* Pods-KonkeSdk4YinYue_WebSocket_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KonkeSdk4YinYue_WebSocket_Tests.modulemap"; sourceTree = "<group>"; };
+		DDE9A12EAA72B65433BD4968CC953E94 /* KonkeSdk4YinYue_WebSocket */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KonkeSdk4YinYue_WebSocket; path = KonkeSdk4YinYue_WebSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF148A584BFE473D75717DB1AD4F3903 /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
+		E7046374FF9BDB2A54C1B77C15906603 /* Pods-KonkeSdk4YinYue_WebSocket_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KonkeSdk4YinYue_WebSocket_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F02168F6E133C94C921ACECFD2705CC3 /* KYWebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYWebSocket.swift; path = KonkeSdk4YinYue_WebSocket/Classes/KYWebSocket.swift; sourceTree = "<group>"; };
+		F15971AB4365C4BC26EA6A432AAB2757 /* WSEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WSEngine.swift; path = Sources/Engine/WSEngine.swift; sourceTree = "<group>"; };
+		F1A1F4536A06860CC4EA680276D3642D /* Pods-KonkeSdk4YinYue_WebSocket_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KonkeSdk4YinYue_WebSocket_Tests-Info.plist"; sourceTree = "<group>"; };
+		F42C530E227F48330AEAB5F3E9777BA9 /* Framer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Framer.swift; path = Sources/Framer/Framer.swift; sourceTree = "<group>"; };
+		F64B8C66880AA8C1895298B7BA7C4F02 /* Pods-KonkeSdk4YinYue_WebSocket_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KonkeSdk4YinYue_WebSocket_Example"; path = Pods_KonkeSdk4YinYue_WebSocket_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F0142B81E9D7FFDB671688D455D860D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84722F065D42BABA7853F9F1DC0B525C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432BED354384AB2C5AD71838BA70A76D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DAFF43FCAC3319D2040C9DD95DABF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9BB6DA3B003A09674738231024D135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4595F516367469F6947F036B277F61FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905B70957333EBF2070675244E7A4978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E99026FB3B15AF4B8DCE5D9DF6DCE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B279AF9FDF44A7B4D899E26ED5AE1AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C746B6197B6B809445585CDD2CE1C58A /* KonkeSdk4YinYue-xcframeworks.sh */,
+				43C8524F3ECA2F4D45B89A4B7C99ED9D /* KonkeSdk4YinYue.debug.xcconfig */,
+				66C22091598CA664AA1342721537D314 /* KonkeSdk4YinYue.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KonkeSdk4YinYue";
+			sourceTree = "<group>";
+		};
+		1C833C348BBE7B45F08613DCB7C5DDC2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAC2D8808B30D25CD9C90FC6D8869AD8 /* KonkeSdk4YinYue_WebSocket.modulemap */,
+				319A2C13E23FECB33DA27523E39511E9 /* KonkeSdk4YinYue_WebSocket-dummy.m */,
+				A537D1F8D3BB313A239575AED56B73D8 /* KonkeSdk4YinYue_WebSocket-Info.plist */,
+				362BE007AE1F9F18DE8E6523214EF1EF /* KonkeSdk4YinYue_WebSocket-prefix.pch */,
+				7F4D3CAB092214E553B92EAC54A72C94 /* KonkeSdk4YinYue_WebSocket-umbrella.h */,
+				2CD960AD1AA52242D1E3A7B49BA340F4 /* KonkeSdk4YinYue_WebSocket.debug.xcconfig */,
+				48710CBCBF7A0F9807460DDB3EB109A6 /* KonkeSdk4YinYue_WebSocket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KonkeSdk4YinYue_WebSocket";
+			sourceTree = "<group>";
+		};
+		2EB067C84168A81614020E508334AB76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE9A12EAA72B65433BD4968CC953E94 /* KonkeSdk4YinYue_WebSocket */,
+				F64B8C66880AA8C1895298B7BA7C4F02 /* Pods-KonkeSdk4YinYue_WebSocket_Example */,
+				2A2A3B0C633393815CA79370BC1A976A /* Pods-KonkeSdk4YinYue_WebSocket_Tests */,
+				891B2270823847ED23F2ECFC28F935EC /* Starscream */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		362F57B2BE4BA37AD1C3096C38BA9EDD /* KonkeSdk4YinYue_WebSocket */ = {
+			isa = PBXGroup;
+			children = (
+				F02168F6E133C94C921ACECFD2705CC3 /* KYWebSocket.swift */,
+				45BC59ADF36D06B8CCE787B230645FEE /* Pod */,
+				1C833C348BBE7B45F08613DCB7C5DDC2 /* Support Files */,
+			);
+			name = KonkeSdk4YinYue_WebSocket;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		45BC59ADF36D06B8CCE787B230645FEE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BDDCAA97281898E7FE3DE70B46A426E4 /* KonkeSdk4YinYue_WebSocket.podspec */,
+				C980F5DE98EFAF40E91AA804B020436B /* LICENSE */,
+				82CB904EA78E318754546FD55A889A24 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		61B2D2CCFB1B7C7965032B8809B2B2D5 /* Pods-KonkeSdk4YinYue_WebSocket_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DCA86B3746BD6E2E9630B845F7C29849 /* Pods-KonkeSdk4YinYue_WebSocket_Tests.modulemap */,
+				392E6A6C89CF9B05795544389B5C81AB /* Pods-KonkeSdk4YinYue_WebSocket_Tests-acknowledgements.markdown */,
+				87BFB8FE8DD09FE853483332B432E530 /* Pods-KonkeSdk4YinYue_WebSocket_Tests-acknowledgements.plist */,
+				49232436241498164069D1E3C664B1FD /* Pods-KonkeSdk4YinYue_WebSocket_Tests-dummy.m */,
+				E7046374FF9BDB2A54C1B77C15906603 /* Pods-KonkeSdk4YinYue_WebSocket_Tests-frameworks.sh */,
+				F1A1F4536A06860CC4EA680276D3642D /* Pods-KonkeSdk4YinYue_WebSocket_Tests-Info.plist */,
+				173D3D2060996F4F73A8086C23211CCC /* Pods-KonkeSdk4YinYue_WebSocket_Tests-umbrella.h */,
+				D4585F97055A3B5A627C653E32CF6707 /* Pods-KonkeSdk4YinYue_WebSocket_Tests.debug.xcconfig */,
+				23E45FC4610D31C60FCF35F2FB49C795 /* Pods-KonkeSdk4YinYue_WebSocket_Tests.release.xcconfig */,
+			);
+			name = "Pods-KonkeSdk4YinYue_WebSocket_Tests";
+			path = "Target Support Files/Pods-KonkeSdk4YinYue_WebSocket_Tests";
+			sourceTree = "<group>";
+		};
+		70CD5CF011D142A1007A01D1BC3A7491 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82591F9DD16936634970681C41D7E290 /* KonkeSdk4YinYue.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		749621EF11F4EC27EF4F6B43C390263D /* KonkeSdk4YinYue */ = {
+			isa = PBXGroup;
+			children = (
+				70CD5CF011D142A1007A01D1BC3A7491 /* Frameworks */,
+				1B279AF9FDF44A7B4D899E26ED5AE1AD /* Support Files */,
+			);
+			path = KonkeSdk4YinYue;
+			sourceTree = "<group>";
+		};
+		9DAD042F309EC2472FE4E45D7FB99128 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9014DFFF2F0809596DB98FCE36A26780 /* Starscream.modulemap */,
+				DF148A584BFE473D75717DB1AD4F3903 /* Starscream-dummy.m */,
+				BEBF6F6D2F32DFB55EAE93D8C55ECBA8 /* Starscream-Info.plist */,
+				3FCD47DDA37038A56E4C047175B8C223 /* Starscream-prefix.pch */,
+				82D0D250086638A80592023B570B0B66 /* Starscream-umbrella.h */,
+				7D0793C40548EF7717F17D27E497F688 /* Starscream.debug.xcconfig */,
+				DA8A554545952B5EABEA8C625010C7D7 /* Starscream.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Starscream";
+			sourceTree = "<group>";
+		};
+		C118507FDBC169056FC011E14075F6D0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				362F57B2BE4BA37AD1C3096C38BA9EDD /* KonkeSdk4YinYue_WebSocket */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C3E65BA161D59CCCEE5120F6F2FE0747 /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				94A575577888EFF06398283C5B999DBC /* Compression.swift */,
+				8120A6CC361845917F3781585FBCD88C /* Data+Extensions.swift */,
+				00843E5522F6D5CB36AC11AE2DE67E88 /* Engine.swift */,
+				DC128B4C3E038AB39CBB6DB5680E4DCB /* FoundationHTTPHandler.swift */,
+				881D3B976257CA10286C5F902AF1030C /* FoundationHTTPServerHandler.swift */,
+				4956CC5C362D053AFA379F01CE50B3F9 /* FoundationSecurity.swift */,
+				B479036D7F91C63390E5EB738D30118D /* FoundationTransport.swift */,
+				1A3D0A63D7CF3CAE54377DEAA0F3D24A /* FrameCollector.swift */,
+				F42C530E227F48330AEAB5F3E9777BA9 /* Framer.swift */,
+				41F4091618F686442105634A9A93FEAE /* HTTPHandler.swift */,
+				B70E2F80843F2BDD9E1AEE18873B15CA /* NativeEngine.swift */,
+				8CE66CF3EF5E9044CE46BE25169AED18 /* Security.swift */,
+				A7DDF2CF909F5C1CD5822CED394E4EAA /* Server.swift */,
+				82A455D498CECF814C4B98B2A191E7EE /* StringHTTPHandler.swift */,
+				A3841D011BCEA3169BFEBDC86D1878E5 /* TCPTransport.swift */,
+				5E0E72E1F8C2A161BF07104CE1E21EE4 /* Transport.swift */,
+				BED5BB521A43EE174560572461DF52DC /* WebSocket.swift */,
+				C9ACB6F5AF6605DB35B6FC318180EF61 /* WebSocketServer.swift */,
+				884FC4DB759C26947318135F0A4ED544 /* WSCompression.swift */,
+				F15971AB4365C4BC26EA6A432AAB2757 /* WSEngine.swift */,
+				9DAD042F309EC2472FE4E45D7FB99128 /* Support Files */,
+			);
+			path = Starscream;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C118507FDBC169056FC011E14075F6D0 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D1A34E021E75F073D1CD70A13AAEEAC0 /* Pods */,
+				2EB067C84168A81614020E508334AB76 /* Products */,
+				D6AE96C67DB130F83D3FB0ADDA861A7B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1A34E021E75F073D1CD70A13AAEEAC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				749621EF11F4EC27EF4F6B43C390263D /* KonkeSdk4YinYue */,
+				C3E65BA161D59CCCEE5120F6F2FE0747 /* Starscream */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6AE96C67DB130F83D3FB0ADDA861A7B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFDEBC58A0BB9A881FB3DA32547DA134 /* Pods-KonkeSdk4YinYue_WebSocket_Example */,
+				61B2D2CCFB1B7C7965032B8809B2B2D5 /* Pods-KonkeSdk4YinYue_WebSocket_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EFDEBC58A0BB9A881FB3DA32547DA134 /* Pods-KonkeSdk4YinYue_WebSocket_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B4BA98FD45AD129281B417AF952531C9 /* Pods-KonkeSdk4YinYue_WebSocket_Example.modulemap */,
+				3B7EFD9BC32501CFCDD872BBF191E6D3 /* Pods-KonkeSdk4YinYue_WebSocket_Example-acknowledgements.markdown */,
+				CB1DCB6C1D428E1ADA845B14FE0560D6 /* Pods-KonkeSdk4YinYue_WebSocket_Example-acknowledgements.plist */,
+				3D7C5F77C33CE0932C47AAD99F29C714 /* Pods-KonkeSdk4YinYue_WebSocket_Example-dummy.m */,
+				84F3F5558C873FA71F4B33471FC40E8B /* Pods-KonkeSdk4YinYue_WebSocket_Example-frameworks.sh */,
+				5781D3575A91312F9C059F9EE7657648 /* Pods-KonkeSdk4YinYue_WebSocket_Example-Info.plist */,
+				B85B605AE3247C8C9D7485ABBC0F6031 /* Pods-KonkeSdk4YinYue_WebSocket_Example-umbrella.h */,
+				792375F8573946435F87529C55439026 /* Pods-KonkeSdk4YinYue_WebSocket_Example.debug.xcconfig */,
+				13BCB17B901826C07DB0F54694384B5B /* Pods-KonkeSdk4YinYue_WebSocket_Example.release.xcconfig */,
+			);
+			name = "Pods-KonkeSdk4YinYue_WebSocket_Example";
+			path = "Target Support Files/Pods-KonkeSdk4YinYue_WebSocket_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C1EBC3E6F5EDEFB5FA01B09FEF782BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DCA4C3BDB020EBF9E2DB09E3AE7626A /* KonkeSdk4YinYue_WebSocket-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FEC0E406BEC0C5BA2A764B134CB2952 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501C45E7CEF9AA6B87CB30D9BD4B37AB /* Pods-KonkeSdk4YinYue_WebSocket_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85785DF2CDDC51C451F4842EE6B21A15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD69D525F0B815F065332A8E3E71370F /* Pods-KonkeSdk4YinYue_WebSocket_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E9BE161DD596251BC49D77AB0F7084 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9118563C83660A5F37E07C7BAB3A3339 /* Starscream-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3243F10691840401CA669AFF64479827 /* Pods-KonkeSdk4YinYue_WebSocket_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE5EB7EDC5CEB1ABD6DBC65731D6A4B /* Build configuration list for PBXNativeTarget "Pods-KonkeSdk4YinYue_WebSocket_Example" */;
+			buildPhases = (
+				5FEC0E406BEC0C5BA2A764B134CB2952 /* Headers */,
+				A1A5DAF84E3DF88EAD286E06BE3FA9A4 /* Sources */,
+				3F0142B81E9D7FFDB671688D455D860D /* Frameworks */,
+				1613B15188C41BAC651199AA98100C5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7165B472F5820481FD1C6A60AA7D475 /* PBXTargetDependency */,
+				4438DAD5A9C887B268FD3153A0CC9A0B /* PBXTargetDependency */,
+				819477DEFC0A65E4AC13E2868F0D624C /* PBXTargetDependency */,
+			);
+			name = "Pods-KonkeSdk4YinYue_WebSocket_Example";
+			productName = Pods_KonkeSdk4YinYue_WebSocket_Example;
+			productReference = F64B8C66880AA8C1895298B7BA7C4F02 /* Pods-KonkeSdk4YinYue_WebSocket_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		374DC09BA0BA3B5B8B686B62BD58DAF4 /* Pods-KonkeSdk4YinYue_WebSocket_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53EB2F3B1CF805D0BB5A6DDF97F1498 /* Build configuration list for PBXNativeTarget "Pods-KonkeSdk4YinYue_WebSocket_Tests" */;
+			buildPhases = (
+				85785DF2CDDC51C451F4842EE6B21A15 /* Headers */,
+				EF80189C1B55E0DD5A82E1145042B981 /* Sources */,
+				432BED354384AB2C5AD71838BA70A76D /* Frameworks */,
+				F774F796BB09B70AA4255E5490CCC619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7D381C86EAB806CB07FB7EDAB9CE827 /* PBXTargetDependency */,
+				BDE293A3F7F456E05939EF1D9141101D /* PBXTargetDependency */,
+				19705B518C4F9C13FF7E9E9178D61C34 /* PBXTargetDependency */,
+			);
+			name = "Pods-KonkeSdk4YinYue_WebSocket_Tests";
+			productName = Pods_KonkeSdk4YinYue_WebSocket_Tests;
+			productReference = 2A2A3B0C633393815CA79370BC1A976A /* Pods-KonkeSdk4YinYue_WebSocket_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		756B008A00C71D6DFF98522A435EC865 /* KonkeSdk4YinYue_WebSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641252DEA41904538BB2C1F322760BDA /* Build configuration list for PBXNativeTarget "KonkeSdk4YinYue_WebSocket" */;
+			buildPhases = (
+				3C1EBC3E6F5EDEFB5FA01B09FEF782BC /* Headers */,
+				D526ED6B62FEFDBEC2085660DD2AC956 /* Sources */,
+				905B70957333EBF2070675244E7A4978 /* Frameworks */,
+				DF45CBFC0D6EEFA0F7A77E24F62220B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6847FDFFCA4DC9D72878C2F3CD92A7A9 /* PBXTargetDependency */,
+				BD38BF02A83ADB436FB14D8B2C6C9EB5 /* PBXTargetDependency */,
+			);
+			name = KonkeSdk4YinYue_WebSocket;
+			productName = KonkeSdk4YinYue_WebSocket;
+			productReference = DDE9A12EAA72B65433BD4968CC953E94 /* KonkeSdk4YinYue_WebSocket */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B298A9908418B5C6280D4759217493 /* Build configuration list for PBXNativeTarget "Starscream" */;
+			buildPhases = (
+				F5E9BE161DD596251BC49D77AB0F7084 /* Headers */,
+				1667E4DA9E0D49A4ED2B825BF4EDBA6B /* Sources */,
+				8E9BB6DA3B003A09674738231024D135 /* Frameworks */,
+				F060A7C6E1965D0FD6768AC8EDA9B83F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starscream;
+			productName = Starscream;
+			productReference = 891B2270823847ED23F2ECFC28F935EC /* Starscream */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2EB067C84168A81614020E508334AB76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2A3A53EF582AB7F1FCB04E360A86FD0 /* KonkeSdk4YinYue */,
+				756B008A00C71D6DFF98522A435EC865 /* KonkeSdk4YinYue_WebSocket */,
+				3243F10691840401CA669AFF64479827 /* Pods-KonkeSdk4YinYue_WebSocket_Example */,
+				374DC09BA0BA3B5B8B686B62BD58DAF4 /* Pods-KonkeSdk4YinYue_WebSocket_Tests */,
+				9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1613B15188C41BAC651199AA98100C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF45CBFC0D6EEFA0F7A77E24F62220B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F060A7C6E1965D0FD6768AC8EDA9B83F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F774F796BB09B70AA4255E5490CCC619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6AD135BAE9E4D8AF63B40A648A5244EE /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/KonkeSdk4YinYue/KonkeSdk4YinYue-xcframeworks.sh",
+				"${PODS_ROOT}/KonkeSdk4YinYue/KonkeSdk4YinYue.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/KonkeSdk4YinYue/KonkeSdk4YinYue.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/KonkeSdk4YinYue/KonkeSdk4YinYue-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1667E4DA9E0D49A4ED2B825BF4EDBA6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12544B865BD71550C934568A6271F391 /* Compression.swift in Sources */,
+				C9891E2E305765D1394B69DC72394A7C /* Data+Extensions.swift in Sources */,
+				42FBD04933FEBE1D37C15B0C5ADE4536 /* Engine.swift in Sources */,
+				FD6CCA186BEB19211C7E60C73AA169FC /* FoundationHTTPHandler.swift in Sources */,
+				72E806DE856F3DD992ADFF3D8EB3ECDB /* FoundationHTTPServerHandler.swift in Sources */,
+				303439F6D884305676D7F787C73B1CAB /* FoundationSecurity.swift in Sources */,
+				366EE8580A51CF4C9DD4A084D6E96EA8 /* FoundationTransport.swift in Sources */,
+				FA98F98F33FCBA9B70AA0B1D6C7769AE /* FrameCollector.swift in Sources */,
+				EECA24125DE91B8B7DD2477505D48135 /* Framer.swift in Sources */,
+				53EFEEADD116E14AEEB770D4929CFD9D /* HTTPHandler.swift in Sources */,
+				A7C1520B71D2B67EF758C2904F48C82A /* NativeEngine.swift in Sources */,
+				0EA4F8B6CDDA76B78CF7F0F3217F3E9E /* Security.swift in Sources */,
+				5C05D91BB12A0D2935E2D9483EC861FD /* Server.swift in Sources */,
+				C5FEB4379AF57D3E3BB065C947B96AC7 /* Starscream-dummy.m in Sources */,
+				029A5720F5C4710972809511A5D0DD6A /* StringHTTPHandler.swift in Sources */,
+				82F6364267EE9528D91832B244469C21 /* TCPTransport.swift in Sources */,
+				A9424A05011F14F3EFDE074ECCF20236 /* Transport.swift in Sources */,
+				C0FAE014E7583E290D1D17E36FD6875F /* WebSocket.swift in Sources */,
+				CF92A6415EE1AA987658D9190B637BAD /* WebSocketServer.swift in Sources */,
+				B52EE1FEC70291C3F325B7DF01868519 /* WSCompression.swift in Sources */,
+				80E8876813C42070BCEFD065CF9905BF /* WSEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A5DAF84E3DF88EAD286E06BE3FA9A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D05A0315DE5CC2E51ABF2A6C4455E16 /* Pods-KonkeSdk4YinYue_WebSocket_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D526ED6B62FEFDBEC2085660DD2AC956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B602E5D8E31EAD347B5D26D73CAD16 /* KonkeSdk4YinYue_WebSocket-dummy.m in Sources */,
+				081499C0FB367E40804C0F4F34A3C9B5 /* KYWebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF80189C1B55E0DD5A82E1145042B981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC4199DF937176E159532D86FFFC5C1 /* Pods-KonkeSdk4YinYue_WebSocket_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19705B518C4F9C13FF7E9E9178D61C34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = 6C1473092B82D2F11752BAEADC462CD9 /* PBXContainerItemProxy */;
+		};
+		4438DAD5A9C887B268FD3153A0CC9A0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KonkeSdk4YinYue_WebSocket;
+			target = 756B008A00C71D6DFF98522A435EC865 /* KonkeSdk4YinYue_WebSocket */;
+			targetProxy = F6A6D4559076B36D13FA0E4E20DAC0A5 /* PBXContainerItemProxy */;
+		};
+		6847FDFFCA4DC9D72878C2F3CD92A7A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KonkeSdk4YinYue;
+			target = C2A3A53EF582AB7F1FCB04E360A86FD0 /* KonkeSdk4YinYue */;
+			targetProxy = F68F61AF10ADD30F02AFA11614A4B1DB /* PBXContainerItemProxy */;
+		};
+		819477DEFC0A65E4AC13E2868F0D624C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = 90F5F2B047C089427C594D2FFF2B0A87 /* PBXContainerItemProxy */;
+		};
+		BD38BF02A83ADB436FB14D8B2C6C9EB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = 68016B787AB9821758EAD9D96C11E262 /* PBXContainerItemProxy */;
+		};
+		BDE293A3F7F456E05939EF1D9141101D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KonkeSdk4YinYue_WebSocket_Example";
+			target = 3243F10691840401CA669AFF64479827 /* Pods-KonkeSdk4YinYue_WebSocket_Example */;
+			targetProxy = 634CBF731A0978B10DE9C26EC6965152 /* PBXContainerItemProxy */;
+		};
+		D7165B472F5820481FD1C6A60AA7D475 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KonkeSdk4YinYue;
+			target = C2A3A53EF582AB7F1FCB04E360A86FD0 /* KonkeSdk4YinYue */;
+			targetProxy = 0420B7627D721E64971AF7966CA527CD /* PBXContainerItemProxy */;
+		};
+		D7D381C86EAB806CB07FB7EDAB9CE827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KonkeSdk4YinYue;
+			target = C2A3A53EF582AB7F1FCB04E360A86FD0 /* KonkeSdk4YinYue */;
+			targetProxy = B71A902B4D669CB59C71279A5163CB8C /* PBXContainerItemProxy */;
+		};
+		DED6C18FFE05670A997F38430CB64D6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = F60A981E839A7F8B0C2ECE58B860FF59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13BE471D898027BA6502721A05A8D913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA8A554545952B5EABEA8C625010C7D7 /* Starscream.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		54D421448703BD097CF5DF9E8B243B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0793C40548EF7717F17D27E497F688 /* Starscream.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		614BC187881E2C41E651252200E60864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4585F97055A3B5A627C653E32CF6707 /* Pods-KonkeSdk4YinYue_WebSocket_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KonkeSdk4YinYue_WebSocket_Tests/Pods-KonkeSdk4YinYue_WebSocket_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KonkeSdk4YinYue_WebSocket_Tests/Pods-KonkeSdk4YinYue_WebSocket_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		67CF207D666B4113C0E1E6BF89F1B8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66C22091598CA664AA1342721537D314 /* KonkeSdk4YinYue.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C478941AED44C814464CB120D08332A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C8524F3ECA2F4D45B89A4B7C99ED9D /* KonkeSdk4YinYue.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DC81272916410AA28F62AF5AC00C15A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13BCB17B901826C07DB0F54694384B5B /* Pods-KonkeSdk4YinYue_WebSocket_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KonkeSdk4YinYue_WebSocket_Example/Pods-KonkeSdk4YinYue_WebSocket_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KonkeSdk4YinYue_WebSocket_Example/Pods-KonkeSdk4YinYue_WebSocket_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72D46B8A98EAC1BD209B4E736F06CECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 792375F8573946435F87529C55439026 /* Pods-KonkeSdk4YinYue_WebSocket_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KonkeSdk4YinYue_WebSocket_Example/Pods-KonkeSdk4YinYue_WebSocket_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KonkeSdk4YinYue_WebSocket_Example/Pods-KonkeSdk4YinYue_WebSocket_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8EE203B540F819FFA630D7B8EFF84E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48710CBCBF7A0F9807460DDB3EB109A6 /* KonkeSdk4YinYue_WebSocket.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KonkeSdk4YinYue_WebSocket/KonkeSdk4YinYue_WebSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KonkeSdk4YinYue_WebSocket/KonkeSdk4YinYue_WebSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KonkeSdk4YinYue_WebSocket/KonkeSdk4YinYue_WebSocket.modulemap";
+				PRODUCT_MODULE_NAME = KonkeSdk4YinYue_WebSocket;
+				PRODUCT_NAME = KonkeSdk4YinYue_WebSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8FE69AAAAF11181561A3132B20BB3402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CD960AD1AA52242D1E3A7B49BA340F4 /* KonkeSdk4YinYue_WebSocket.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KonkeSdk4YinYue_WebSocket/KonkeSdk4YinYue_WebSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KonkeSdk4YinYue_WebSocket/KonkeSdk4YinYue_WebSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KonkeSdk4YinYue_WebSocket/KonkeSdk4YinYue_WebSocket.modulemap";
+				PRODUCT_MODULE_NAME = KonkeSdk4YinYue_WebSocket;
+				PRODUCT_NAME = KonkeSdk4YinYue_WebSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		97C7879AAFBB10D8A60BED43308C013F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23E45FC4610D31C60FCF35F2FB49C795 /* Pods-KonkeSdk4YinYue_WebSocket_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KonkeSdk4YinYue_WebSocket_Tests/Pods-KonkeSdk4YinYue_WebSocket_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KonkeSdk4YinYue_WebSocket_Tests/Pods-KonkeSdk4YinYue_WebSocket_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		641252DEA41904538BB2C1F322760BDA /* Build configuration list for PBXNativeTarget "KonkeSdk4YinYue_WebSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE69AAAAF11181561A3132B20BB3402 /* Debug */,
+				8EE203B540F819FFA630D7B8EFF84E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B298A9908418B5C6280D4759217493 /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D421448703BD097CF5DF9E8B243B15 /* Debug */,
+				13BE471D898027BA6502721A05A8D913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B53EB2F3B1CF805D0BB5A6DDF97F1498 /* Build configuration list for PBXNativeTarget "Pods-KonkeSdk4YinYue_WebSocket_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614BC187881E2C41E651252200E60864 /* Debug */,
+				97C7879AAFBB10D8A60BED43308C013F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13A1E7B3B945500CE941988BB7CBB70 /* Build configuration list for PBXAggregateTarget "KonkeSdk4YinYue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C478941AED44C814464CB120D08332A /* Debug */,
+				67CF207D666B4113C0E1E6BF89F1B8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCE5EB7EDC5CEB1ABD6DBC65731D6A4B /* Build configuration list for PBXNativeTarget "Pods-KonkeSdk4YinYue_WebSocket_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D46B8A98EAC1BD209B4E736F06CECC /* Debug */,
+				6DC81272916410AA28F62AF5AC00C15A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

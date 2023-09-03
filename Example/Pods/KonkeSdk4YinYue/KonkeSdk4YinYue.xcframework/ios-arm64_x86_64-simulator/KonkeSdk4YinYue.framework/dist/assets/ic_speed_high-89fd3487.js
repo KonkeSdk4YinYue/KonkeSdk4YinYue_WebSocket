@@ -1,0 +1,1 @@
+const e=""+new URL("ic_speed_low-8c027654.svg",import.meta.url).href,c=""+new URL("ic_speed_mid-6fa5cc10.svg",import.meta.url).href,i=""+new URL("ic_speed_high-2c7d2dbd.svg",import.meta.url).href;export{c as a,i as b,e as i};

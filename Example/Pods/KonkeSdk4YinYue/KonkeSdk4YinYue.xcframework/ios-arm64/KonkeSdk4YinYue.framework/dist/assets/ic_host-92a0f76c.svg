@@ -1,0 +1,37 @@
+<svg width="154" height="134" viewBox="0 0 154 134" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 2119" filter="url(#filter0_d_130_474)">
+<rect id="Rectangle 1862" opacity="0.4" x="3" y="63" width="146" height="53" rx="1" fill="#F7F7F7"/>
+<rect id="Rectangle 1871" x="13" y="2" width="7" height="65" rx="1" fill="#E3E3E8"/>
+<rect id="Rectangle 1872" x="132" y="2" width="7" height="65" rx="1" fill="#E3E3E8"/>
+<rect id="Rectangle 1873" x="12" y="115" width="7" height="7" rx="1" fill="url(#paint0_linear_130_474)"/>
+<rect id="Rectangle 1874" x="137" y="115" width="7" height="7" rx="1" fill="url(#paint1_linear_130_474)"/>
+<rect id="Rectangle 1864" x="3" y="63" width="146" height="53" rx="1" fill="#F7F7F7"/>
+<rect id="Rectangle 1863" x="3" y="70" width="146" height="39" fill="#F0F0F2"/>
+<rect id="Rectangle 1865" x="14" y="81" width="13" height="5" rx="1" fill="#60B797"/>
+<rect id="Rectangle 1866" x="36" y="81" width="13" height="5" rx="1" fill="#939394"/>
+<rect id="Rectangle 1867" x="58" y="81" width="13" height="5" rx="1" fill="#939394"/>
+<rect id="Rectangle 1868" x="80" y="81" width="13" height="5" rx="1" fill="#939394"/>
+<rect id="Rectangle 1869" x="102" y="81" width="13" height="5" rx="1" fill="#939394"/>
+<rect id="Rectangle 1870" x="124" y="81" width="13" height="5" rx="1" fill="#939394"/>
+</g>
+<defs>
+<filter id="filter0_d_130_474" x="-9" y="-5" width="170" height="144" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="6"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_130_474"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_130_474" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_130_474" x1="15.5" y1="115" x2="15.5" y2="122" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DBDBDC"/>
+<stop offset="1" stop-color="#C6C6C7"/>
+</linearGradient>
+<linearGradient id="paint1_linear_130_474" x1="140.5" y1="115" x2="140.5" y2="122" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DBDBDC"/>
+<stop offset="1" stop-color="#C6C6C7"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,11 @@
+framework module KonkeSdk4YinYue {
+  umbrella header "KonkeSdk4YinYue.h"
+
+  export *
+  module * { export * }
+}
+
+module KonkeSdk4YinYue.Swift {
+  header "KonkeSdk4YinYue-Swift.h"
+  requires objc
+}

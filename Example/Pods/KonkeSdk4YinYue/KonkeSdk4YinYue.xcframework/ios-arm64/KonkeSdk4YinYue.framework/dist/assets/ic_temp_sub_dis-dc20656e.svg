@@ -1,0 +1,19 @@
+<svg width="82" height="52" viewBox="0 0 82 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 2098">
+<g id="Rectangle 1790" filter="url(#filter0_d_100_265)">
+<rect x="3" y="2" width="75" height="43" rx="21.5" fill="#F5F5F5"/>
+</g>
+<path id="Vector 662" d="M31.9999 24.0039H49.9999" stroke="white" stroke-width="3" stroke-linecap="round"/>
+</g>
+<defs>
+<filter id="filter0_d_100_265" x="-2" y="0" width="85" height="53" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feOffset dy="3"/>
+<feGaussianBlur stdDeviation="2.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.992157 0 0 0 0 0.490196 0 0 0 0 0.156863 0 0 0 0.26 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_100_265"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_100_265" result="shape"/>
+</filter>
+</defs>
+</svg>

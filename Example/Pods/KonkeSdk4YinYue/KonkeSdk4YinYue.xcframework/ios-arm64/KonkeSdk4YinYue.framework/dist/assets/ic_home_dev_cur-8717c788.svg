@@ -1,0 +1,37 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 1928" filter="url(#filter0_d_34_2156)">
+<rect id="Rectangle 398" x="3" y="5.5" width="34" height="2" fill="white"/>
+<path id="Rectangle 399" d="M2 5.5C2 4.67157 2.67157 4 3.5 4V4C4.32843 4 5 4.67157 5 5.5V7.5C5 8.32843 4.32843 9 3.5 9V9C2.67157 9 2 8.32843 2 7.5V5.5Z" fill="#595959"/>
+<path id="Rectangle 400" d="M36 5.5C36 4.67157 36.6716 4 37.5 4V4C38.3284 4 39 4.67157 39 5.5V7.5C39 8.32843 38.3284 9 37.5 9V9C36.6716 9 36 8.32843 36 7.5V5.5Z" fill="#595959"/>
+<g id="Rectangle 401">
+<path d="M8.5 5.5H9V8.5H8.5V5.5Z" fill="#B6B4B4"/>
+<path d="M12.5 5.5H13V8.5H12.5V5.5Z" fill="#B6B4B4"/>
+<path d="M16.5 5.5H17V8.5H16.5V5.5Z" fill="#B6B4B4"/>
+<path d="M20.5 5.5H21V8.5H20.5V5.5Z" fill="#B6B4B4"/>
+<path d="M24.5 5.5H25V8.5H24.5V5.5Z" fill="#B6B4B4"/>
+<path d="M28.5 5.5H29V8.5H28.5V5.5Z" fill="#B6B4B4"/>
+<path d="M32.5 5.5H33V8.5H32.5V5.5Z" fill="#B6B4B4"/>
+</g>
+<g id="Rectangle 402">
+<path d="M7 9.75C7 8.7835 7.7835 8 8.75 8V8C9.7165 8 10.5 8.7835 10.5 9.75V33.75C10.5 34.7165 9.7165 35.5 8.75 35.5V35.5C7.7835 35.5 7 34.7165 7 33.75V9.75Z" fill="white"/>
+<path d="M11 9.75C11 8.7835 11.7835 8 12.75 8V8C13.7165 8 14.5 8.7835 14.5 9.75V33.75C14.5 34.7165 13.7165 35.5 12.75 35.5V35.5C11.7835 35.5 11 34.7165 11 33.75V9.75Z" fill="white"/>
+<path d="M15 9.75C15 8.7835 15.7835 8 16.75 8V8C17.7165 8 18.5 8.7835 18.5 9.75V33.75C18.5 34.7165 17.7165 35.5 16.75 35.5V35.5C15.7835 35.5 15 34.7165 15 33.75V9.75Z" fill="white"/>
+<path d="M19 9.75C19 8.7835 19.7835 8 20.75 8V8C21.7165 8 22.5 8.7835 22.5 9.75V33.75C22.5 34.7165 21.7165 35.5 20.75 35.5V35.5C19.7835 35.5 19 34.7165 19 33.75V9.75Z" fill="white"/>
+<path d="M23 9.75C23 8.7835 23.7835 8 24.75 8V8C25.7165 8 26.5 8.7835 26.5 9.75V33.75C26.5 34.7165 25.7165 35.5 24.75 35.5V35.5C23.7835 35.5 23 34.7165 23 33.75V9.75Z" fill="white"/>
+<path d="M27 9.75C27 8.7835 27.7835 8 28.75 8V8C29.7165 8 30.5 8.7835 30.5 9.75V33.75C30.5 34.7165 29.7165 35.5 28.75 35.5V35.5C27.7835 35.5 27 34.7165 27 33.75V9.75Z" fill="white"/>
+<path d="M31 9.75C31 8.7835 31.7835 8 32.75 8V8C33.7165 8 34.5 8.7835 34.5 9.75V33.75C34.5 34.7165 33.7165 35.5 32.75 35.5V35.5C31.7835 35.5 31 34.7165 31 33.75V9.75Z" fill="white"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_34_2156" x="-2" y="2" width="45" height="39.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_34_2156"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_34_2156" result="shape"/>
+</filter>
+</defs>
+</svg>

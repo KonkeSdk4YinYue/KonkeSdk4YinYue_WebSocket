@@ -1,0 +1,14 @@
+<svg width="82" height="52" viewBox="0 0 82 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 2099">
+<g id="Rectangle 1790" filter="url(#filter0_d_100_268)">
+<rect x="3" y="2" width="75" height="43" rx="21.5" fill="#F5F5F5"/>
+</g>
+<path id="Union" fill-rule="evenodd" clip-rule="evenodd" d="M42.4999 15.0039C42.4999 14.1755 41.8284 13.5039 40.9999 13.5039C40.1715 13.5039 39.4999 14.1755 39.4999 15.0039V22.5039H31.9999C31.1715 22.5039 30.4999 23.1755 30.4999 24.0039C30.4999 24.8323 31.1715 25.5039 31.9999 25.5039H39.4999V33.0039C39.4999 33.8323 40.1715 34.5039 40.9999 34.5039C41.8284 34.5039 42.4999 33.8323 42.4999 33.0039V25.5039H49.9999C50.8284 25.5039 51.4999 24.8323 51.4999 24.0039C51.4999 23.1755 50.8284 22.5039 49.9999 22.5039H42.4999V15.0039Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_100_268" x="-2" y="0" width="85" height="53" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_100_268" result="shape"/>
+</filter>
+</defs>
+</svg>

@@ -1,0 +1,30 @@
+{
+  "name": "KonkeSdk4YinYue_WebSocket",
+  "version": "0.1.0",
+  "summary": "A short description of KonkeSdk4YinYue_WebSocket.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/weichengwu/KonkeSdk4YinYue_WebSocket",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "weichengwu": "wuvcen@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/weichengwu/KonkeSdk4YinYue_WebSocket.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "KonkeSdk4YinYue_WebSocket/Classes/**/*",
+  "dependencies": {
+    "Starscream": [
+      "~> 4.0.0"
+    ],
+    "KonkeSdk4YinYue": [
+
+    ]
+  }
+}

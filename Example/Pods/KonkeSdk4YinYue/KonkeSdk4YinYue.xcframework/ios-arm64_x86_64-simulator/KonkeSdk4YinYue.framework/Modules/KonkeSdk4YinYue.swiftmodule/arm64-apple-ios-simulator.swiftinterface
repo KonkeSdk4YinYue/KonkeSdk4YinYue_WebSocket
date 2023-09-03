@@ -1,0 +1,249 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KonkeSdk4YinYue
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import Foundation
+@_exported import KonkeSdk4YinYue
+import PhotosUI
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+@_inheritsConvenienceInitializers @objc public class KonkeSdk4YinYueRunner : ObjectiveC.NSObject {
+  public static var socketManager: (any KonkeSdk4YinYue.KYWebSocketManager)? {
+    get
+    set
+  }
+  @objc public static func prepare()
+  @objc public static func openSdkHome(by viewController: UIKit.UIViewController)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension KonkeSdk4YinYue.KonkeSdk4YinYueRunner : KonkeSdk4YinYue.KYWebSocketManagerDelegate {
+  @objc dynamic public func onReceived(_ data: Swift.String)
+}
+@_hasMissingDesignatedInitializers public class ViewStackJSB {
+  @objc deinit
+}
+public struct WebViewInvoke : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct WebViewResponse : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class H5ContentWebView : WebKit.WKWebView {
+  @_Concurrency.MainActor(unsafe) weak public var viewController: (any UIKit.UIViewController & KonkeSdk4YinYue.H5ContentViewStack)?
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect, configuration: WebKit.WKWebViewConfiguration)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+public let H5ManagerDefaultDocumentDirectory: Swift.String
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class H5Manager : ObjectiveC.NSObject {
+  @objc public static let shared: KonkeSdk4YinYue.H5Manager
+  @objc public func setup(_ mainBundleDirectory: Swift.String = H5ManagerDefaultDocumentDirectory)
+  @objc public var isDebug: Swift.Bool
+  @objc public func setupDebug(_ host: Swift.String)
+  public func webview(for viewController: any UIKit.UIViewController & KonkeSdk4YinYue.H5ContentViewStack) -> KonkeSdk4YinYue.H5ContentWebView
+  @objc deinit
+}
+extension WebKit.WKWebView {
+  @_Concurrency.MainActor(unsafe) public func loadH5Page(_ pageName: Swift.String, query: Swift.String?)
+}
+@frozen public struct AnyCodable : Swift.Codable {
+  public let value: Any
+  public init<T>(_ value: T?)
+}
+extension KonkeSdk4YinYue.AnyCodable : KonkeSdk4YinYue._AnyEncodable, KonkeSdk4YinYue._AnyDecodable {
+}
+extension KonkeSdk4YinYue.AnyCodable : Swift.Equatable {
+  public static func == (lhs: KonkeSdk4YinYue.AnyCodable, rhs: KonkeSdk4YinYue.AnyCodable) -> Swift.Bool
+}
+extension KonkeSdk4YinYue.AnyCodable : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension KonkeSdk4YinYue.AnyCodable : Swift.CustomDebugStringConvertible {
+  public var debugDescription: Swift.String {
+    get
+  }
+}
+extension KonkeSdk4YinYue.AnyCodable : Swift.ExpressibleByNilLiteral {
+}
+extension KonkeSdk4YinYue.AnyCodable : Swift.ExpressibleByBooleanLiteral {
+  public typealias BooleanLiteralType = Swift.Bool
+}
+extension KonkeSdk4YinYue.AnyCodable : Swift.ExpressibleByIntegerLiteral {
+  public typealias IntegerLiteralType = Swift.Int
+}
+extension KonkeSdk4YinYue.AnyCodable : Swift.ExpressibleByFloatLiteral {
+  public typealias FloatLiteralType = Swift.Double
+}
+extension KonkeSdk4YinYue.AnyCodable : Swift.ExpressibleByStringLiteral {
+  public typealias ExtendedGraphemeClusterLiteralType = Swift.String
+  public typealias StringLiteralType = Swift.String
+  public typealias UnicodeScalarLiteralType = Swift.String
+}
+extension KonkeSdk4YinYue.AnyCodable : Swift.ExpressibleByStringInterpolation {
+  public typealias StringInterpolation = Swift.DefaultStringInterpolation
+}
+extension KonkeSdk4YinYue.AnyCodable : Swift.ExpressibleByArrayLiteral {
+  public typealias ArrayLiteralElement = Any
+}
+extension KonkeSdk4YinYue.AnyCodable : Swift.ExpressibleByDictionaryLiteral {
+  public typealias Key = Swift.AnyHashable
+  public typealias Value = Any
+}
+extension KonkeSdk4YinYue.AnyCodable : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@frozen public struct AnyDecodable : Swift.Decodable {
+  public let value: Any
+  public init<T>(_ value: T?)
+}
+@usableFromInline
+internal protocol _AnyDecodable {
+  var value: Any { get }
+  init<T>(_ value: T?)
+}
+extension KonkeSdk4YinYue.AnyDecodable : KonkeSdk4YinYue._AnyDecodable {
+}
+extension KonkeSdk4YinYue._AnyDecodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension KonkeSdk4YinYue.AnyDecodable : Swift.Equatable {
+  public static func == (lhs: KonkeSdk4YinYue.AnyDecodable, rhs: KonkeSdk4YinYue.AnyDecodable) -> Swift.Bool
+}
+extension KonkeSdk4YinYue.AnyDecodable : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension KonkeSdk4YinYue.AnyDecodable : Swift.CustomDebugStringConvertible {
+  public var debugDescription: Swift.String {
+    get
+  }
+}
+extension KonkeSdk4YinYue.AnyDecodable : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@frozen public struct AnyEncodable : Swift.Encodable {
+  public let value: Any
+  public init<T>(_ value: T?)
+}
+@usableFromInline
+internal protocol _AnyEncodable {
+  var value: Any { get }
+  init<T>(_ value: T?)
+}
+extension KonkeSdk4YinYue.AnyEncodable : KonkeSdk4YinYue._AnyEncodable {
+}
+extension KonkeSdk4YinYue._AnyEncodable {
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension KonkeSdk4YinYue.AnyEncodable : Swift.Equatable {
+  public static func == (lhs: KonkeSdk4YinYue.AnyEncodable, rhs: KonkeSdk4YinYue.AnyEncodable) -> Swift.Bool
+}
+extension KonkeSdk4YinYue.AnyEncodable : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension KonkeSdk4YinYue.AnyEncodable : Swift.CustomDebugStringConvertible {
+  public var debugDescription: Swift.String {
+    get
+  }
+}
+extension KonkeSdk4YinYue.AnyEncodable : Swift.ExpressibleByNilLiteral {
+}
+extension KonkeSdk4YinYue.AnyEncodable : Swift.ExpressibleByBooleanLiteral {
+  public typealias BooleanLiteralType = Swift.Bool
+}
+extension KonkeSdk4YinYue.AnyEncodable : Swift.ExpressibleByIntegerLiteral {
+  public typealias IntegerLiteralType = Swift.Int
+}
+extension KonkeSdk4YinYue.AnyEncodable : Swift.ExpressibleByFloatLiteral {
+  public typealias FloatLiteralType = Swift.Double
+}
+extension KonkeSdk4YinYue.AnyEncodable : Swift.ExpressibleByStringLiteral {
+  public typealias ExtendedGraphemeClusterLiteralType = Swift.String
+  public typealias StringLiteralType = Swift.String
+  public typealias UnicodeScalarLiteralType = Swift.String
+}
+extension KonkeSdk4YinYue.AnyEncodable : Swift.ExpressibleByStringInterpolation {
+  public typealias StringInterpolation = Swift.DefaultStringInterpolation
+}
+extension KonkeSdk4YinYue.AnyEncodable : Swift.ExpressibleByArrayLiteral {
+  public typealias ArrayLiteralElement = Any
+}
+extension KonkeSdk4YinYue.AnyEncodable : Swift.ExpressibleByDictionaryLiteral {
+  public typealias Key = Swift.AnyHashable
+  public typealias Value = Any
+}
+extension KonkeSdk4YinYue._AnyEncodable {
+  public init(nilLiteral _: ())
+  public init(booleanLiteral value: Swift.Bool)
+  public init(integerLiteral value: Swift.Int)
+  public init(floatLiteral value: Swift.Double)
+  public init(extendedGraphemeClusterLiteral value: Swift.String)
+  public init(stringLiteral value: Swift.String)
+  public init(arrayLiteral elements: Any...)
+  public init(dictionaryLiteral elements: (Swift.AnyHashable, Any)...)
+}
+extension KonkeSdk4YinYue.AnyEncodable : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol KYWebSocketManagerDelegate : ObjectiveC.NSObjectProtocol {
+  @objc func onReceived(_ data: Swift.String)
+}
+@objc public protocol KYWebSocketManager : ObjectiveC.NSObjectProtocol {
+  @objc var delegate: (any KonkeSdk4YinYue.KYWebSocketManagerDelegate)? { get set }
+  @objc var token: Swift.String? { get set }
+  @objc var isConnected: Swift.Bool { get set }
+  @objc func reconnect()
+  @objc func disconnect()
+}
+public protocol H5ContentViewStack : ObjectiveC.NSObjectProtocol {
+  func navigateTo(_ pageName: Swift.String, params: [Swift.String : KonkeSdk4YinYue.AnyCodable]?, animated: Swift.Bool)
+  func pop(_ step: Swift.Int, animated: Swift.Bool)
+}
+extension KonkeSdk4YinYue.H5ContentViewStack where Self : UIKit.UIViewController {
+  public func navigateTo(_ pageName: Swift.String, params: [Swift.String : KonkeSdk4YinYue.AnyCodable]?, animated: Swift.Bool)
+  public func pop(_ step: Swift.Int, animated: Swift.Bool)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class H5ContentViewController : UIKit.UIViewController, KonkeSdk4YinYue.H5ContentViewStack {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+extension KonkeSdk4YinYue.H5ContentViewController : UIKit.UIGestureRecognizerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizerShouldBegin(_ gestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+}
+public typealias JSBInvocationCallback = (_ response: KonkeSdk4YinYue.WebViewResponse) -> Swift.Void
+@_hasMissingDesignatedInitializers public class JSBInvocation {
+  public var invoke: KonkeSdk4YinYue.WebViewInvoke
+  weak public var webview: KonkeSdk4YinYue.H5ContentWebView?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class EventForwarderJSB {
+  @objc deinit
+}

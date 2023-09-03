@@ -1,13 +1,13 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '11.0'
 
 target 'KonkeSdk4YinYue_WebSocket_Example' do
   pod 'KonkeSdk4YinYue_WebSocket', :path => '../'
 
   target 'KonkeSdk4YinYue_WebSocket_Tests' do
     inherit! :search_paths
-
-    
+    pod 'KonkeSdk4YinYue', :git => 'https://github.com/KonkeSdk4YinYue/KonkeSdk4YinYue.git'
+    pod 'Starscream'
   end
 end

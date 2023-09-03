@@ -1,0 +1,27 @@
+{
+  "name": "KonkeSdk4YinYue",
+  "version": "0.1.0",
+  "summary": "A short description of KonkeSdk4YinYue.",
+  "description": "Konke SDK for YinYue (iOS).",
+  "homepage": "https://github.com/KonkeSdk4YinYue/KonkeSdk4YinYue",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "weichengwu": "wuvcen@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/KonkeSdk4YinYue/KonkeSdk4YinYue.git",
+    "branch": "main"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "vendored_frameworks": "KonkeSdk4YinYue.xcframework",
+  "dependencies": {
+    "Starscream": [
+      "~> 4.0.0"
+    ]
+  }
+}
