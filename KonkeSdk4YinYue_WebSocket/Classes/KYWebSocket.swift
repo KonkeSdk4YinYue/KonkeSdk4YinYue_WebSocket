@@ -11,6 +11,7 @@ import KonkeSdk4YinYue
 
 fileprivate let tokenKey = "WebSocketManager_token"
 
+@objc
 public final class WebSocketManager: NSObject, KYWebSocketManager {
     public var delegate: KYWebSocketManagerDelegate?
     
