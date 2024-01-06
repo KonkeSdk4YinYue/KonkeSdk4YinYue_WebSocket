@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import KonkeSdk4YinYue_WebSocket
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let manager = WebSocketManager(baseUrl: "2333")
+        manager.reconnect()
     }
 
     override func didReceiveMemoryWarning() {

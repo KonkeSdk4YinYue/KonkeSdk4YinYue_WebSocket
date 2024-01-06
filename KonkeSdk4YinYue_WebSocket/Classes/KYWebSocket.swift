@@ -9,6 +9,7 @@ import Foundation
 import Starscream
 import KonkeSdk4YinYue
 
+fileprivate let wsProdUrl = "wss://kapp.ikonke.com/ws"
 fileprivate let tokenKey = "WebSocketManager_token"
 
 @objc
@@ -30,12 +31,18 @@ public final class WebSocketManager: NSObject, KYWebSocketManager {
         }
     }
     
+    public let baseUrl: String
     public var isConnected: Bool = false
+    
+    public init(baseUrl: String? = nil) {
+        self.baseUrl = baseUrl ?? wsProdUrl
+        super.init()
+    }
     
     public func reconnect() {
         disconnect()
         guard let token = token else { return }
-        let urlString = "wss://kapp.ikonke.com/ws/listener?authorization=\(token)"
+        let urlString = "\(baseUrl)/listener?authorization=\(token)"
         var request = URLRequest(url: URL(string: urlString)!)
         request.timeoutInterval = 5
         socket = WebSocket(request: request)
